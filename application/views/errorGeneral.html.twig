@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Plataforma de concursos</title>
+
+    <link href="{{asset('vendors/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('vendors/metisMenu/metisMenu.min.css')}}" rel="stylesheet">
+
+    <link href="{{asset('dist/css/sb-admin-2.css')}}" rel="stylesheet">
+
+    <link href="{{asset('vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div class="container">
+	 
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+
+				<div  class="login-panel">
+				   <img class="center-block" src="../img/Voolkia.png" alt="logo voolkia" />
+				</div> 
+					
+                <div class=" panel panel-danger">
+						
+                    <div class="panel-heading">
+					
+                        <h3 class="panel-title">Ha Ocurrido un inconveniente</h3>
+                    </div>
+
+                        <div class="panel-body ">
+                            <p>Ha ocurrido un inconveniente en el acceso al recurso solicitado.</p>
+							
+							<p>Le rogamos que intene nuevamente a la brevedad.</p>
+                        </div>
+              
+                            <a href="{{path('inicio')}}" class="btn btn-lg btn-danger btn-block">Aceptar</a>      
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="{{asset('vendors/jquery/jquery.min.js')}}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{asset('vendors/bootstrap/js/bootstrap.min.js')}}"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="{{asset('vendors/metisMenu/metisMenu.min.js')}}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{asset('dist/js/sb-admin-2.js')}}"></script>
+
+</body>
+
+</html>
